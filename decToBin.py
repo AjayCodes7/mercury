@@ -9,4 +9,5 @@ def decToBin(num):
         num = num//2
     return bin[::-1]
 
-print("Binary Number : "+decToBin(7))
+num = int(input("Enter a number to find binary number : "))
+print("Binary Number : "+decToBin(num))
