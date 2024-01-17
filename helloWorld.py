@@ -1,3 +1,6 @@
 print("Hello World!")
-a=int(input("enter a"))
-print(a)
+name=input("Enter your Name : ")
+print(f"Hi👋!! {name}")
+a=int(input("Enter a number : "))
+print(f"you entered {a}")
+
